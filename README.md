@@ -6,7 +6,11 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 * [Podcast](https://www.linuxserver.io/index.php/category/podcast/) covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 
-# lsioarmhf/cops
+# lsioarmf/cops
+[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmf/cops.svg)][hub]
+[![Docker Stars](https://img.shields.io/docker/stars/lsioarmf/cops.svg)][hub]
+[![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-cops)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-cops/)
+[hub]: https://hub.docker.com/r/lsioarmf/cops/
 
 COPS, by Sébastien Lucas, stands for Calibre OPDS (and HTML) Php Server.
 
@@ -41,7 +45,8 @@ So COPS's main advantages are :
 
 If you want to use the OPDS feed don't forget to specify feed.php at the end of your URL.
 
-# Docker Container
+[![cops](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cops-icon.png)][copsurl]
+[copsurl]: http://blog.slucas.fr/en/oss/calibre-opds-php-server
 
 ## Usage
 
@@ -53,7 +58,7 @@ docker create \
 	-e PGID=<gid> -e PUID=<uid>  \
 	-e TZ=<timezone> \
 	-p 80:80 \
-	lsioarmhf/cops
+	lsioarmf/cops
 ```
 
 **Parameters**
@@ -79,7 +84,6 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ```
 
 ## Setting up the application 
-`IMPORTANT... THIS IS THE ARMHF VERSION`
 
 Unlike other implementations of COPS in a docker container,  the linuxserver version gives you access to `config_local.php` in `/config` to customise your install to suit your needs, including details of your email account etc...
 
@@ -89,4 +93,6 @@ Unlike other implementations of COPS in a docker container,  the linuxserver ver
 
 ## Version Log
 
++ **29.08.16:** Add php5-opcache.
++ **28.08.16:** Add badges to README.
 + **12.08.16:** Release
