@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.nginx
+FROM lsioarmhf/base.nginx
 MAINTAINER chbmb
 
 # set package version
