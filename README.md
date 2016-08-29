@@ -6,11 +6,11 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 * [Podcast](https://www.linuxserver.io/index.php/category/podcast/) covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 
-# lsioarmf/cops
-[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmf/cops.svg)][hub]
-[![Docker Stars](https://img.shields.io/docker/stars/lsioarmf/cops.svg)][hub]
+# lsioarmhf/cops
+[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/cops.svg)][hub]
+[![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/cops.svg)][hub]
 [![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-cops)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-cops/)
-[hub]: https://hub.docker.com/r/lsioarmf/cops/
+[hub]: https://hub.docker.com/r/lsioarmhf/cops/
 
 COPS, by Sébastien Lucas, stands for Calibre OPDS (and HTML) Php Server.
 
@@ -58,7 +58,7 @@ docker create \
 	-e PGID=<gid> -e PUID=<uid>  \
 	-e TZ=<timezone> \
 	-p 80:80 \
-	lsioarmf/cops
+	lsioarmhf/cops
 ```
 
 **Parameters**
