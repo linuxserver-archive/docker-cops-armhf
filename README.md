@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/cops
-[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/cops.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/cops.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-cops)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-cops/)
+[![](https://images.microbadger.com/badges/image/lsioarmhf/cops.svg)](http://microbadger.com/images/lsioarmhf/cops "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/cops.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/cops.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-cops)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-cops/)
 [hub]: https://hub.docker.com/r/lsioarmhf/cops/
 
 COPS, by Sébastien Lucas, stands for Calibre OPDS (and HTML) Php Server.
@@ -96,6 +96,7 @@ Unlike other implementations of COPS in a docker container,  the linuxserver ver
 
 ## Version Log
 
++ **11.09.16:** Add layer badges to README.
 + **29.08.16:** Add php5-opcache.
 + **28.08.16:** Add badges to README.
 + **12.08.16:** Release
